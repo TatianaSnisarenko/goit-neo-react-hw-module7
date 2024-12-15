@@ -1,7 +1,8 @@
 #root {
   max-width: 1440px;
+  min-width: 375px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: left;
+  text-align: center;
   font-size: 18px;
 }

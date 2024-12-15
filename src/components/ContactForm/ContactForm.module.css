@@ -22,11 +22,23 @@
 }
 
 .form {
-  width: var(--desktop-el-width);
-  margin: 20px 0;
+  width: var(--el-width);
+  margin: 20px auto;
   border: solid 2px black;
   padding: 10px;
   border-radius: 5px;
+}
+
+@media screen and (min-width: 674px) {
+  .form {
+    width: var(--planshet-form-width);
+  }
+}
+
+@media screen and (min-width: 984px) {
+  .form {
+    width: var(--desktop-form-width);
+  }
 }
 
 .label {
